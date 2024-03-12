@@ -1,4 +1,4 @@
-let tabuada = 10;
+let tabuada = 15;
 let limite = 16;
 
 if (limite <= 0 || tabuada <= 0) {
