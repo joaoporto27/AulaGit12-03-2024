@@ -1,0 +1,13 @@
+let tabuada = 10;
+let limite = 15;
+
+if (limite <= 0 || tabuada <= 0) {
+    console.log("Por favor, escolha um número positivo");
+} else if (limite % 1 !== 0 || tabuada % 1 !== 0) {
+    console.log("Exibir um número inteiro por favor!")
+} else {
+    for (let i = 1; i <= limite; i++) {
+        let resultado = tabuada * i;
+        console.log(tabuada, "x", i, "=", tabuada * i);
+    }
+}
