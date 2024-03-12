@@ -1,5 +1,5 @@
 let tabuada = 10;
-let limite = 15;
+let limite = -15;
 
 if (limite <= 0 || tabuada <= 0) {
     console.log("Por favor, escolha um número positivo");
