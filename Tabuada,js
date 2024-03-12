@@ -6,7 +6,7 @@ if (limite <= 0 || tabuada <= 0) {
 } else if (limite % 1 !== 0 || tabuada % 1 !== 0) {
     console.log("Por favor, escolha um número inteiro!")
 } else {
-    for (let i = 1; i <= limite; i++) {
-        console.log(tabuada, "x", i, "=", tabuada * i);
+    for (let a = 1; i <= limite; a ++) {
+        console.log(tabuada, "x", a, "=", tabuada * a);
     }
 }
